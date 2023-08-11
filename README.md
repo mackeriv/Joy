@@ -3,4 +3,4 @@ Project for learning how to create a Bob Ross style illustration using 2D graphi
 
 ![screenshot1](resources/window.png)
 
-It is a Swing application that launches a window and draws geometric shapes with different colors and mixes. Tutorial comes from **[Learn Code By Gaming](https://learncodebygaming.com)** ([video tutorial](https://www.youtube.com/@LearnCodeByGaming)).
+It is a Swing application that launches a window and draws geometric shapes with different colors and mixes. Tutorial comes from **[Learn Code By Gaming](https://learncodebygaming.com)** ([video tutorial](https://youtu.be/IyBsWymfqms)).
