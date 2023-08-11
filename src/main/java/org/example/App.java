@@ -7,7 +7,7 @@ public class App {
     public static void main(String[] args) {
 
         // create a window frame and set the title and icon in the toolbar
-        JFrame window = new JFrame("Art");
+        JFrame window = new JFrame("The Joy of Coding");
         window.setIconImage(Toolkit.getDefaultToolkit().getImage("resources\\icon.jpg"));
         // when we close the window, stop the app
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

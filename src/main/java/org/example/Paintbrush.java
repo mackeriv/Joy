@@ -1,6 +1,5 @@
 package org.example;
 
-import javax.swing.*;
 import java.awt.*;
 
 class Paintbrush {
@@ -56,11 +55,9 @@ class Paintbrush {
         jagged.addPoint(755, 520);
 
         g.fillPolygon(jagged);
-
     }
 
     public void drawTree() {
-
         //trunk
         Color trunkMix = blend(DARK_SIENNA, YELLOW_OCHRE, 0.21F);
         trunkMix = blend(trunkMix, VAN_DYKE_BROWN, 0.15F);
@@ -94,11 +91,9 @@ class Paintbrush {
             g.fillPolygon(triangle);
 
         }
-
     }
 
     public void drawGrass() {
-
         Color grassFarMix = blend(SAP_GREEN, PHTHALO_BLUE, 0.414f);
         Color grassNearMix = blend(SAP_GREEN, TITANIUM_WHITE, 0.165f);
 
@@ -112,8 +107,7 @@ class Paintbrush {
 
     }
 
-
-    // https://stackoverflow.com/a/20332789/4655368
+    // Method for mixing colors. Source: https://stackoverflow.com/a/20332789/4655368
     Color blend( Color c1, Color c2, float ratio ) {
         if ( ratio > 1f ) ratio = 1f;
         else if ( ratio < 0f ) ratio = 0f;
@@ -139,6 +133,4 @@ class Paintbrush {
 
         return new Color( a << 24 | r << 16 | g << 8 | b );
     }
-
-
 }
